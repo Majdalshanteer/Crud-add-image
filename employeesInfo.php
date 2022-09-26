@@ -13,7 +13,11 @@ include "./connect.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>employees</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
- 
+    <style>
+  th,td {
+   text-align: center;   
+}
+</style>
 </head>
 <body style="margin:50px;">
 <button class="btn btn-info my-2" ><a href="signup.php"class="text-light" >+ Add new employee</a></button><br>

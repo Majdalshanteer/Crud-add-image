@@ -65,7 +65,7 @@ if($result){
 
 
 <body>
-
+<a href="employeesInfo.php"><input  class="  btn  btn-light" type="submit" value="Back " name="submit"/><img src='skip-backward-fill.svg'></a><br />
     <div  class="containerc">
     <form  name="myForm" id="sign-up" method="post" >
        
@@ -99,6 +99,7 @@ if($result){
        <div id="four" class="err"></div><br />
        
         <input id="submitBtn" class="signForm" type="submit" value="Update " name="submit"/><br />
+        
        
 
        </div>
